@@ -1,0 +1,22 @@
+<h1> Add data to database </h1>
+
+
+
+{% if submitted %}
+Your data is submitted successfully!!!!
+
+{% else %}
+
+<form action="" method="POST" >
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <input type="submit" value="submit"  class="btn btn-secondary" >
+
+
+</form>
+
+{% endif %}
+
+<a href="{% url "home" %}">Back</a>

@@ -1,0 +1,18 @@
+<h1>List of employees...</h1>
+
+
+
+{% for i in lis_emp %}
+<ul>
+<li>
+    <a href="{% url 'show-emp' i.id %}">
+
+{{ i.name }}---
+
+</li<br/>
+    <a href="{% url 'delete-emp' i.id  %}">Delete</a>  or
+    <a href="{% url 'update-emp' i.id  %}">Update</a>
+    <hr/>
+
+</ul>
+{% endfor %}
