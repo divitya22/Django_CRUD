@@ -1,3 +1,10 @@
+
+![download](https://user-images.githubusercontent.com/83720788/151764135-f748b29a-e1b3-4877-9f35-9fdb343cff25.png)
+
+
+
+
+
 Django is a Python-based web framework which allows you to quickly create web application without all of the installation or dependency problems that you normally will find with other frameworks. Django is based on MVT (Model View Template) architecture and revolves around CRUD (Create, Retrieve, Update, Delete) operations. CRUD can be best explained as an approach to building a Django web application. In general CRUD means performing Create, Retrieve, Update and Delete operations on a table in a database. Let’s discuss what actually CRUD means:
 Create – create or add new entries in a table in the database. 
 Retrieve – read, retrieve, search, or view existing entries as a list(List View) or retrieve a particular entry in detail (Detail View) 
